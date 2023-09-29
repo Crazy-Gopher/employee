@@ -13,3 +13,7 @@ func Greet(msg string) string {
 func GreetCapital(msg string) string {
 	return strings.ToUpper("Hello" + " " + department.MagicString(msg))
 }
+
+func V002() {
+	print("v0.0.2")
+}
