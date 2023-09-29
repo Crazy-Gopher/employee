@@ -1,5 +1,7 @@
 package employee
 
+import "github.com/Crazy-Gopher/department"
+
 func Greet(msg string) string {
-	return "Hello" + " " + msg
+	return "Hello" + " " + department.MagicString(msg)
 }
